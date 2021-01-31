@@ -15,12 +15,12 @@ export default class Formradio extends Component {
 
     }
 
-    eventHandler = (event) =>{
+    // eventHandler = (event) =>{
     
-        this.setState({jawaban:event.target.value})
-        this.addScore(event.target.value)
+    //     this.setState({jawaban:event.target.value})
+    //     this.addScore(event.target.value)
      
-     }
+    //  }
 
     Soal = (e)=>{
         this.setState({soal: e.target.value});
