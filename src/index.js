@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Formradio from './Formradio';
+import Formtextarea from './Formtextarea'
 import reportWebVitals from './reportWebVitals';
+import Formcheckbox from './Formcheckbox';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Formcheckbox />
+    <Formradio />
+    {/* <Formtextarea /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
